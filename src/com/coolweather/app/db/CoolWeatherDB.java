@@ -64,7 +64,7 @@ public class CoolWeatherDB {
 	}
 	
 	//将City数据存储到数据库
-	public void savaCity(City city){
+	public void saveCity(City city){
 		if(city != null){
 			ContentValues values = new ContentValues();
 			values.put("city_name", city.getCityName());
